@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/tugas2.css">
+</head>
+<body>
+	<div class="container">
+		<img src="img/logo.png" class="img-fluid float-left mr-4">
+		<div class="row no-gutters header">
+			<div class="col">
+				<div class="caption">
+					<h4 class="text-center">Kawan Jalan</h4>
+					<p>Kawan Jalan merupakan perusahaan jasa, terutama untuk jasa perencanaan perjalanan, pelatihan, dan juga jasa event organizer.</p>
+				</div>
+			</div>
+		</div>
+		<div class="jumbotron">
+			<form method="post" action="output.php">
+				<div class="form-group">
+					<label>Nip</label>
+					<input type="text" name="nip" class="form-control">
+				</div>
+				<div class="form-group">
+					<label>Nama</label>
+					<input type="text" name="nama" class="form-control">
+				</div>
+				<div class="form-group">
+					<label>Alamat</label>
+					<textarea class="form-control" rows="5" name="alamat" id="comment"></textarea>
+				</div>
+				<div class="form-group">
+					<label>Email</label>
+					<input type="text" name="email" class="form-control">
+				</div>
+				<div class="form-group">
+					<label>Kode Tujuan</label>
+					<select class="form-control" id="sel1" name="kd_tujuan">
+						<option></option>
+						<option>
+							<td>001 </td>
+							<td>Bali </td>
+							<td>Rp. 2.000.000,- </td>
+							<td>12</td>
+						</option>
+						<option>
+							<td>002</td>
+							<td>Jogja</td>
+							<td>Rp. 500.000,-</td>
+							<td>20</td>
+						</option>
+						<option>
+							<td>003</td>
+							<td>Gunung Binaya, Maluku</td>
+							<td>Rp. 2.500.000,-</td>
+							<td>10</td>
+						</option>
+						<option>
+							<td>004</td>
+							<td>Lombok</td>
+							<td>Rp. 3.000.000,-</td>
+							<td>20</td>
+						</option>
+					</select>
+				</div>
+				<input type="submit" class="btn btn-outline-success btn-block" value="Input">
+			</form>
+		</div>
+	</div>
+
+	
+
+	<div class="container">
+		<table class="table table-hover">
+			<thead>
+				<tr>
+					<th>Kode</th>
+					<th>Tujuan</th>
+					<th>Harga</th>
+					<th>Jumlah</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>001</td>
+					<td>Bali</td>
+					<td>2.000.000</td>
+					<td>12</td>
+				</tr>
+				<tr>
+					<td>002</td>
+					<td>Jogja</td>
+					<td>500.000</td>
+					<td>20</td>
+				</tr>
+				<tr>
+					<td>003</td>
+					<td>Gunung Binaya, Maluku</td>
+					<td>2.500.000</td>
+					<td>10</td>
+				</tr>
+				<tr>
+					<td>004</td>
+					<td>Lombok</td>
+					<td>3.000.000</td>
+					<td>20</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<div class="jumbotron">
+		<div class="row no-gutters footer">
+			<div class="col-5 text-right pr-4">
+				<img src="img/logo2.jpeg" width="120">
+			</div>
+			<div class="col">
+				<h5>Contact Us</h5>
+				<table>
+					<tr>
+						<td>Email </td>
+						<td>: kawanjalan(@)gmail.com</td>
+					</tr>
+					<tr>
+						<td>Twitter </td>
+						<td>: @kawan_jalan</td>
+					</tr>		
+					<tr>
+						<td>Facebook </td>
+						<td>: https://www.facebook.com/infokawanjalan</td>
+					</tr>		
+					<tr>
+						<td>Website </td>
+						<td>: http://kawanjalan.com</td>
+					</tr>			
+				</table>
+			</div>
+			
+		</div>
+	</div>
+	<div><p class="copy">&copy; Kawan Jalan Travel</p></div>
+
+	<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>

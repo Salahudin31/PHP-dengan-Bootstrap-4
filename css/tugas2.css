@@ -1,0 +1,59 @@
+.header {
+	background-color: #4CAF50;
+	padding: 20px;
+}
+.caption {
+	line-height: 1;
+}
+.caption > h4 {
+	font-family: Arial Black;
+}
+.caption>p {
+	margin-bottom: 5px;
+}
+.list-unstyled >li {
+	width: 90%;
+	margin: auto;
+	padding: 5px;
+}
+.form-group {
+	display: flex;
+}
+.form-group > label {
+	width: 10%;
+}
+.form-group > input {
+	width: 90%;
+}
+.form-group > textarea {
+	width: 90%;
+}
+.form-group > select {
+	width: 90%;
+}
+.mr {
+	border-left: 1px solid #bbbbbb;
+	border-right: 1px solid #bbbbbb;
+	padding: 5px 20px 5px 20px; 
+}
+.report {
+	margin: 15px;
+	padding: 5px;
+	border-bottom: 1px solid #bbbbbb;
+}
+.jumbotron {
+	margin-bottom: 0px;
+}
+.table-hover {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.footer {
+	margin-top: -30px;
+	margin-bottom: -30px;
+	font-size: 11pt;
+}
+.copy {
+	text-align: center;
+	font-size: 9pt; 
+}
